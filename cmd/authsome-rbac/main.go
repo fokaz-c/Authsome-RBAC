@@ -1,5 +1,7 @@
 package authsome_rbac
 
-func main() {
+import "fmt"
 
+func main() {
+	fmt.Println("Hello World")
 }
