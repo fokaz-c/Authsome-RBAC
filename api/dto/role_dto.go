@@ -13,3 +13,7 @@ type RoleDTO struct {
 	Description string    `json:"description"`
 	Cursor      string    `json:"cursor,omitempty"`
 }
+
+type GetRolesResponseDTO struct {
+	Roles []RoleDTO `json:"roles"`
+}

@@ -13,3 +13,7 @@ type ActionDTO struct {
 	Description string    `json:"description"`
 	Cursor      string    `json:"cursor,omitempty"`
 }
+
+type GetActionsResponseDTO struct {
+	Actions []ActionDTO `json:"actions"`
+}

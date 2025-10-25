@@ -13,3 +13,7 @@ type ResourceActionDTO struct {
 	ActionID   uuid.UUID `json:"actionId"`
 	Cursor     string    `json:"cursor,omitempty"`
 }
+
+type GetResourceActionsResponseDTO struct {
+	ResourceActions []ResourceActionDTO `json:"resourceActions"`
+}
