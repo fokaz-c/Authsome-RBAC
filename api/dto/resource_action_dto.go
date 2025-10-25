@@ -8,7 +8,8 @@ type LinkResourceActionRequestDTO struct {
 }
 
 type ResourceActionDTO struct {
-	ID         uuid.UUID `json:"Id"`
+	ID         uuid.UUID `json:"id"`
 	ResourceID uuid.UUID `json:"resourceId"`
 	ActionID   uuid.UUID `json:"actionId"`
+	Cursor     string    `json:"cursor,omitempty"`
 }
