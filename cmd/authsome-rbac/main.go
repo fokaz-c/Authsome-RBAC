@@ -1,4 +1,4 @@
-package authsome_rbac
+package main
 
 import "fmt"
 
