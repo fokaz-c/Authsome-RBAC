@@ -8,5 +8,5 @@ type LinkRoleResourceActionRequestDTO struct {
 }
 
 type RoleResourceActionDTO struct {
-	RoleResourceActionID uuid.UUID `json:"roleResourceActionId"`
+	ID uuid.UUID `json:"Id"`
 }

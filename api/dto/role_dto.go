@@ -8,7 +8,7 @@ type CreateRoleRequestDTO struct {
 }
 
 type RoleDTO struct {
-	RoleID      uuid.UUID `json:"id"`
+	ID          uuid.UUID `json:"id"`
 	Name        string    `json:"name"`
 	Description string    `json:"description"`
 }
